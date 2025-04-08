@@ -13,7 +13,7 @@ summarizer = pipeline("summarization")  # Summarization Model
 # ✅ Streamlit UI
 st.set_page_config(page_title="News Translator", layout="wide")
 
-st.title("🌍 News Translator & Analyzer")
+st.title("🌍 Summarize and Translate your news")
 
 # 🔹 User Input
 url = st.text_input("Enter News Website URL:")
